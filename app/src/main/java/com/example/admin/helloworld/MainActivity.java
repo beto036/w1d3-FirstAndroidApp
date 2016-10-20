@@ -37,6 +37,7 @@ public class MainActivity extends AppCompatActivity {
     public void doSomething(View view) {
         Toast.makeText(this, "Hello World", Toast.LENGTH_SHORT).show();
         Log.d("TAG_", "doSomething: ");
+        Log.d("TAG_", "Git change: ");
         EditText editText1 = (EditText) findViewById(R.id.editText1);
         int a = Integer.parseInt(editText1.getText().toString());
         Toast.makeText(this, a+"", Toast.LENGTH_SHORT).show();
