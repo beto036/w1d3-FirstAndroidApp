@@ -13,6 +13,7 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
 
     // This is a comment
+    // This is another comment
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
